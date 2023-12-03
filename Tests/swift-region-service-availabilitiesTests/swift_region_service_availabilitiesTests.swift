@@ -1,5 +1,5 @@
 import XCTest
-@testable import swift_region_service_availabilities
+@testable import SwiftRegionServiceAvailabilities
 
 final class swift_region_service_availabilitiesTests: XCTestCase {
     func testExample() throws {
