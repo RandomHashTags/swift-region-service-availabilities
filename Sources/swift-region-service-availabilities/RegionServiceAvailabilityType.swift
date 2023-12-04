@@ -182,7 +182,7 @@ public enum RegionServiceAvailabilityType : CaseIterable {
         case .xbox_cloud_gaming: return XboxCloudGaming()
         case .xbox_game_pass: return XboxGamePass()
         case .xbox_live: return XboxLive()
-        case .youtube_premium: return nil
+        case .youtube_premium: return YouTubePremium()
         case .youtube_tv: return YouTubeTV()
         default: return nil
         }
