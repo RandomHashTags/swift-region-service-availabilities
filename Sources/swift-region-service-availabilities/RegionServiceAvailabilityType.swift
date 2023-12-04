@@ -160,7 +160,7 @@ public enum RegionServiceAvailabilityType : CaseIterable {
         case .at_and_t_tv: return AT_AND_TTV()
         case .dazn: return DAZN()
         case .discovery_plus: return DiscoveryPlus()
-        case .disney_plus: return nil
+        case .disney_plus: return DisneyPlus()
         case .espn_plus: return ESPNPlus()
         case .google_assistant: return GoogleAssistant()
         case .google_pay: return GooglePay()
