@@ -8,7 +8,7 @@
 import Foundation
 import SwiftSovereignStates
 
-// https://en.wikipedia.org/wiki/HBO_Max
+// https://en.wikipedia.org/wiki/Max_(streaming_service)
 struct HBOMax : RegionServiceAvailabilityProtocol {
     var type : RegionServiceAvailabilityType {
         return RegionServiceAvailabilityType.hbo_max
@@ -91,7 +91,45 @@ struct HBOMax : RegionServiceAvailabilityProtocol {
             Country.romania,
             Country.serbia,
             Country.slovakia,
-            Country.slovenia
+            Country.slovenia,
+            
+            Country.australia,
+            Country.belgium,
+            Country.canada,
+            Country.china,
+            
+            // CIS (https://en.wikipedia.org/wiki/Commonwealth_of_Independent_States)
+            Country.armenia,
+            Country.azerbaijan,
+            Country.belarus,
+            Country.kazakhstan,
+            Country.kyrgyzstan,
+            Country.moldova,
+            Country.russia,
+            Country.tajikistan,
+            Country.uzbekistan,
+            
+            Country.france,
+            Country.germany,
+            Country.austria,
+            Country.switzerland,
+            Country.greece,
+            Country.india,
+            Country.italy,
+            Country.japan,
+            
+            // MENA (https://en.wikipedia.org/wiki/Middle_East_and_North_Africa)
+            // TODO: support ^
+            
+            Country.new_zealand,
+            Country.south_korea,
+            
+            // Sub-Saharan Africa (https://en.wikipedia.org/wiki/Sub-Saharan_Africa)
+            // TODO: support ^
+            
+            Country.turkey,
+            Country.united_kingdom,
+            Country.ireland
         ]
     }
 }
