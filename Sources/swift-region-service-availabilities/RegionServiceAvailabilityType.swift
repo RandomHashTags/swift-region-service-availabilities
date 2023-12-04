@@ -173,7 +173,7 @@ public enum RegionServiceAvailabilityType : CaseIterable {
         case .playstation_now: return nil
         case .samsung_pay: return SamsungPay()
         case .showtime: return Showtime()
-        case .spotify: return nil
+        case .spotify: return Spotify()
         case .stadia: return nil
         case .starz: return Starz()
         case .starzplay: return Starzplay()
