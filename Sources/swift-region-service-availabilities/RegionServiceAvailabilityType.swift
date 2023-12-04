@@ -164,7 +164,7 @@ public enum RegionServiceAvailabilityType : CaseIterable {
         case .espn_plus: return ESPNPlus()
         case .google_assistant: return GoogleAssistant()
         case .google_pay: return GooglePay()
-        case .google_play_pass: return nil
+        case .google_play_pass: return GooglePlayPass()
         case .hbo_max: return nil
         case .hulu: return Hulu()
         case .nvidia_geforce_now: return NvidiaGeForceNOW()
