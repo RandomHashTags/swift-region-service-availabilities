@@ -177,7 +177,7 @@ public enum RegionServiceAvailabilityType : CaseIterable {
         case .stadia: return nil
         case .starz: return Starz()
         case .starzplay: return Starzplay()
-        case .tidal: return nil
+        case .tidal: return Tidal()
         case .venmo: return Venmo()
         case .xbox_cloud_gaming: return XboxCloudGaming()
         case .xbox_game_pass: return XboxGamePass()
