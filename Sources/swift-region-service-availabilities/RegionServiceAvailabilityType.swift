@@ -63,11 +63,11 @@ public enum RegionServiceAvailabilityType : CaseIterable {
     case nvidia_geforce_now
     case paramount_plus
     case peacock
-    case playstation_now
+    case playstation_now // merged with Playstation Plus
     case samsung_pay
     case showtime
     case spotify
-    case stadia
+    case stadia // defunct
     case starz
     case starzplay
     case tidal
@@ -170,7 +170,7 @@ public enum RegionServiceAvailabilityType : CaseIterable {
         case .nvidia_geforce_now: return NvidiaGeForceNOW()
         case .paramount_plus: return ParamountPlus()
         case .peacock: return Peacock()
-        case .playstation_now: return nil
+        case .playstation_now: return PlaystationNow()
         case .samsung_pay: return SamsungPay()
         case .showtime: return Showtime()
         case .spotify: return Spotify()
